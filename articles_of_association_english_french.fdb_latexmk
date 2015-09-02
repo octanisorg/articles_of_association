@@ -1,6 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1441037915 "articles_of_association_english_french.tex" "articles_of_association_english_french.pdf" "articles_of_association_english_french" 1441037916
-  "../code_of_conduct/code_of_conduct_content_english_french.tex" 1441035514 5764 392dec590dc0aeea13c7541074d3f2a3 ""
+["pdflatex"] 1441198913 "articles_of_association_english_french.tex" "articles_of_association_english_french.pdf" "articles_of_association_english_french" 1441198914
   "/usr/local/texlive/2015basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/generic/navigator/navigator.sty" 1296154851 447 0084f33ff86847de6f2f46c07bc11299 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/generic/navigator/navigator.tex" 1360452285 20495 5c78718927d7b19692a5c605a53e0bf6 ""
@@ -10,6 +9,7 @@
   "/usr/local/texlive/2015basic/texmf-dist/tex/generic/yax/yax.tex" 1296084006 23029 79d40e4f9102a73b7ba4902598af5603 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/article.cls" 1428932888 20708 96f8bca6e380179cada1d49716376167 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/fontenc.sty" 1428932888 4572 f29f75cfae3acaf4667f1979db655af9 ""
+  "/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty" 1428932888 5619 3f48adceb9004b3fefe24c2d2df7d98e ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/size12.clo" 1428932888 9190 a2c71ff21fa1cfc03c403f5e246966b5 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu1enc.def" 1284849341 1115 6f8850603672e58af2cd599bee6ade7d ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/euenc/eu1lmr.fd" 1266195411 2284 11da099e92da4724f712149045c96354 ""
@@ -38,8 +38,8 @@
   "/usr/local/texlive/2015basic/texmf-dist/tex/latex/tools/enumerate.sty" 1428932888 3467 e23880ed1af32024be116b861a72d6e1 ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/xelatex/xetex-def/xetex.def" 1427500247 17536 f287c5eacddc627c62141f8a352c932d ""
   "/usr/local/texlive/2015basic/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1315783907 205722 8027ed7ab2230086d647802c25f3ee42 ""
-  "articles_of_association_english_french.aux" 1441037916 3499 2e6613a66021047061eafdcdc285cc18 ""
-  "articles_of_association_english_french.tex" 1441037914 8701 e4e383b83ea3752bacaddf0c433da189 ""
+  "articles_of_association_english_french.aux" 1441198914 4562 d5b23a6280c99509dd7fe1831fe855fa ""
+  "articles_of_association_english_french.tex" 1441198910 17854 c30e95c0a461540a05536ddfcac9c9aa ""
   "images/octanis_org_logo_large.png" 1423918779 23086 4e50f4deb5717d08e7a711419103f77c ""
   (generated)
   "articles_of_association_english_french.pdf"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.30)  31 AUG 2015 18:18
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.30)  2 SEP 2015 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,6 +428,15 @@ Package: navigator 2011/25/01 v.1.0 PDF links, outlines, etc.
 ))
 \nav@outline_count=\count135
 ))
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
 \c@art=\count136
 \g__file_internal_ior=\read1
 .................................................
@@ -521,8 +530,7 @@ Package: navigator 2011/25/01 v.1.0 PDF links, outlines, etc.
 . and font adjustment code:
 . 
 .................................................
-
-(./articles_of_association_english_french.aux)
+ (./articles_of_association_english_french.aux)
 \openout1 = `articles_of_association_english_french.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -546,6 +554,10 @@ LaTeX Font Info:    Try loading font information for T3+cmr on input line 31.
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 31.
+
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -621,7 +633,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `GibsonLight' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -658,96 +669,236 @@ Package microtype Info: Loading generic settings for font family
 
 File: images/octanis_org_logo_large.png Graphic file (type QTm)
 <use  "images/octanis_org_logo_large.png" >
-Underfull \hbox (badness 1184) in paragraph at lines 71--72
+Underfull \hbox (badness 1184) in paragraph at lines 85--86
 []\EU1/GibsonLight(0)/m/n/12 Distill our mission’s findings into pragmatic
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 72--73
+Underfull \hbox (badness 2573) in paragraph at lines 86--87
 \EU1/GibsonLight(0)/m/n/12 sions, prototypes, products, services with
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\EU1/GibsonLight(0)/m/n/12 Embrasser l’entrepreneuriat en laissant
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 100--101
+\EU1/GibsonLight(0)/m/n/12 les idées se développer et être transfor-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 117--118
 \EU1/GibsonLight(0)/m/n/12 Every member has an obligation to know and
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 96--97
-\EU1/GibsonLight(0)/m/n/12 Memberships are automatically renewed every
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 108--109
-[]\EU1/GibsonLight(0)/m/n/12 Full members have access to the full work-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\EU1/GibsonLight(0)/m/n/12 The General Assembly is the associations
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 149--150
-\EU1/GibsonLight(0)/m/n/12 supreme authority. It is composed of all the
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 167--168
-[]\EU1/GibsonLight(0)/m/n/12 The General Assembly shall be considered
- []
-
-
-Underfull \hbox (badness 7925) in paragraph at lines 167--168
-\EU1/GibsonLight(0)/m/n/12 valid regardless of the number of members
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 178--179
-[]\EU1/GibsonLight(0)/m/n/12 The Executive Committee is authorized to
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 220--221
-\EU1/GibsonLight(0)/m/n/12 The association respects the various rules con-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 222--223
-\EU1/GibsonLight(0)/m/n/12 least half of the Executive Committee is com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-
  []
 
 [1
 
-] [2] [3] [4] [5]
-(../code_of_conduct/code_of_conduct_content_english_french.tex
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Gibson' (encoding: EU1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 1014) in paragraph at lines 90--91
-\EU1/GibsonLight(0)/m/n/12 prepared or the idea not thought through. It
+]
+Underfull \hbox (badness 7203) in paragraph at lines 120--121
+\EU1/GibsonLight(0)/m/n/12 Chaque membre a l’obligation de connaître
  []
 
-) [6] [7] [8] (./articles_of_association_english_french.aux) ) 
-Here is how much of TeX's memory you used:
- 16227 strings out of 495158
- 335811 string characters out of 6175469
- 412938 words of memory out of 5000000
- 19392 multiletter control sequences out of 15000+600000
- 4114 words of font info for 37 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 46i,4n,59p,10421b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on articles_of_association_english_french.pdf (8 pages).
+Underfull \hbox (badness 3954) in paragraph at lines 120--121
+\EU1/GibsonLight(0)/m/n/12 et de comprendre le Code de Conduite de
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 133--134
+\EU1/GibsonLight(0)/m/n/12 Memberships are automatically renewed every
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+\EU1/GibsonLight(0)/m/n/12 Les adhésions sont automatiquement renou-
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 147--149
+\EU1/GibsonLight(0)/m/n/12 Les membres peuvent annuler leur adhésion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+\EU1/GibsonLight(0)/m/n/12 en envoyant un courriel au vice-président.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+\EU1/GibsonLight(0)/m/n/12 L’exclusion d’un membre peut être décidée
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 157--158
+[]\EU1/GibsonLight(0)/m/n/12 Full members have access to the full work-
+ []
+
+[2]
+Underfull \hbox (badness 3713) in paragraph at lines 205--206
+\EU1/GibsonLight(0)/m/n/12 Members observing the associations activities
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\EU1/GibsonLight(0)/m/n/12 Les membres observant les activités de
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 209--210
+\EU1/GibsonLight(0)/m/n/12 l’association sans y participer activement sont
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 209--210
+\EU1/GibsonLight(0)/m/n/12 dans la catégories des Membres Passifs. Les
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 209--210
+\EU1/GibsonLight(0)/m/n/12 que l’association fournit. Les Membres Passifs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\EU1/GibsonLight(0)/m/n/12 The General Assembly is the associations
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 241--242
+\EU1/GibsonLight(0)/m/n/12 supreme authority. It is composed of all the
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 241--242
+\EU1/GibsonLight(0)/m/n/12 General Assembly which discusses a specific
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 249--250
+[]\EU1/GibsonLight(0)/m/n/12 Election of Committee members and audi-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 259--260
+[]\EU1/GibsonLight(0)/m/n/12 The General Assembly shall be considered
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 259--260
+\EU1/GibsonLight(0)/m/n/12 valid regardless of the number of members
+ []
+
+[3]
+Underfull \hbox (badness 1253) in paragraph at lines 274--275
+[]\EU1/GibsonLight(0)/m/n/12 Approbation des rapports et des comptes.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+\EU1/GibsonLight(0)/m/n/12 indépendamment du nombre de membres
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 291--292
+[]\EU1/GibsonLight(0)/m/n/12 The Executive Committee is authorized to
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 2 et d’au plus 5 membres qui sont tous élus
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 annuellement par l’Assemblée Générale. Le
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 Comité de Direction est autorisé à accomplir
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 toutes les actions qui contribuent aux buts de
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 l’association. Il représente l’association, règle
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 dépenses et les revenus ainsi que du statut fi-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 305--309
+\EU1/GibsonLight(0)/m/n/12 nancier de l’association. Le Comité de Direc-
+ []
+
+[4]
+Missing character: There is no ́ in font Gibson Light/OT:mapping=tex-text;!
+Missing character: There is no ̂ in font Gibson Light/OT:mapping=tex-text;!
+Missing character: There is no ́ in font Gibson Light/OT:mapping=tex-text;!
+Missing character: There is no ́ in font Gibson Light/OT:mapping=tex-text;!
+Missing character: There is no ́ in font Gibson Light/OT:mapping=tex-text;!
+
+Underfull \hbox (badness 4832) in paragraph at lines 352--354
+\EU1/GibsonLight(0)/m/n/12 Seuls les biens de l’association peuvent être
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 360--361
+\EU1/GibsonLight(0)/m/n/12 The association respects the various rules con-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 362--363
+\EU1/GibsonLight(0)/m/n/12 least half of the Executive Committee is com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[]\EU1/GibsonLight(0)/m/n/12 En particulier, l’association certifie qu’au
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 371--372
+\EU1/GibsonLight(0)/m/n/12 moins la moitié du Comité de Direction est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\EU1/GibsonLight(0)/bx/n/12 Révision des Statuts de
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 391--392
+\EU1/GibsonLight(0)/m/n/12 révisés par l’Assemblée Générale si plus de la
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
+
+ []
+
+[6] (./articles_of_association_english_french.aux) ) 
+Here is how much of TeX's memory you used:
+ 16230 strings out of 495158
+ 335827 string characters out of 6175469
+ 405680 words of memory out of 5000000
+ 19399 multiletter control sequences out of 15000+600000
+ 4106 words of font info for 36 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 46i,4n,59p,10421b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on articles_of_association_english_french.pdf (6 pages).
