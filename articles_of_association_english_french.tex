@@ -8,9 +8,9 @@
 \usepackage{enumerate}
 \graphicspath{ {images/} }
 \usepackage[margin=2cm]{geometry}
-\usepackage{navigator}
+%\usepackage{navigator}
 \usepackage[utf8]{inputenc}
-
+\usepackage{color}
 
 \newcounter{art}
 \addtocounter{art}{1}
@@ -24,6 +24,8 @@
 \setmainfont{Gibson Light}
 \newfontfamily\semibold{Gibson}
 
+\newcounter{para}
+\newcommand\mypara{\par\refstepcounter{para}\textsubscript{\thepara}\space}
 
 
 
@@ -36,63 +38,24 @@
 
 \begin{paracol}{2}\sloppy
 
-
-
-\english
-	\section*{Articles of Association}
- 	
 \french
 	\section*{Statuts de l’Association}
 
 
-
-% =================================
-
-\english
-	\subsection{Name, Domicile and Purpose}
-	\subsubsection{Name}\stepcounter{art}
-	In the name of
-	\begin{center}
-		\textbf{Octanis}
-	\end{center}
-	a non-profit association of legal status according to articles 60 et  seq.  of  the  Swiss  Civil  Code is established.
-
 \french
 	\subsection{Nom, Siège et Buts}
 	\subsubsection{Nom}\stepcounter{art}
-	Sous le nom 
-	\begin{center}
-		\textbf{Octanis}
-	\end{center}
-	est constituée une association à but non lucratif qui se veut juridiquement conforme aux articles 60 et suivants du Code Civil Suisse.
+	L’association \textbf{Octanis} (ci-après « l’association »), est une association à but idéal constituée conformément aux dispositions des articles 60 et suivants du Code civil suisse.
 
-
-\english
-	\subsubsection{Domicile}\stepcounter{art}
-	The associations headquarters are in Lausanne. 
 
 \french
 	\subsubsection{Siège}\stepcounter{art}
 	Le siège de l’association est à Lausanne.
 
-\english
-	\subsubsection{Purpose}\stepcounter{art}
-	The association has the following aims:
-
-	\begin{enumerate}[(a)]
-
-	\item Provide a place for curious and creative minds to embark on exploratory missions around the world.
-	\item Distill our mission's findings into pragmatic solutions and inventions, accessible to everyone. 
-	\item Promotion of the concept of rapid prototyping and design thinking by developing missions, prototypes, products, services with these and similar approaches.
-	\item Embracing entrepreneurship by letting developed ideas be spun off into companies or be directly distributed through the association.
-	\item Giving back to the open source community by releasing software and documentation where possible.
-	\item Provide activities on the campuses of EPFL and other universities and schools.
-
-	\end{enumerate}
 
 \french
 	\subsubsection{Buts}\stepcounter{art}
-	L’association a les objectifs suivants:
+	$^1$ L’association a pour buts:
 	\begin{enumerate}[(a)]
 		\item Fournir un lieu où les esprits curieux et créatifs peuvent se retrouver et embarquer dans des missions d’exploration autour du monde.
 		\item Placer les trouvailles de nos missions dans des inventions et solutions pragmatiques accessible à tout le monde.
@@ -100,344 +63,196 @@
 		\item Embrasser l’entrepreneuriat en laissant les idées se développer et être transformées en sociétés ou utilisées au travers de l’association.
 		\item Contribuer à la communauté «open source» en mettant à disposition des logiciels et de la documentation lorsque c’est possible.
 		\item Fournir des activités sur les campus de l’EPFL ainsi que pour d’autres écoles.
-
-	\end{enumerate}
-
-
-% =================================
-
-\english
-	\subsection{Membership}
+	\end{enumerate} 
+	$^2$ L’association est affranchie de toute orientation et rattachement de nature politique ou religieuse.
 
 \french 
 	\subsection{Membres}
 
-\english
-	\subsubsection{Code of Conduct}\stepcounter{art}
-	Every member has an obligation to know and understand the guidelines contained within the Code of Conduct.
+
 \french
 	\subsubsection{Code de Conduite}\stepcounter{art}
 	Chaque membre a l’obligation de connaître et de comprendre le Code de Conduite de l'association.
 
 
-\english
-	\subsubsection{Membership Conditions}\stepcounter{art}
-	Any person who is willing to participate and contribute to the associations cause can become a member.
 
 \french
 	\subsubsection{Conditions d’adhésion}\stepcounter{art}
-	Chaque personne voulant participer et contribuer à l’association peut devenir membre.
-	\vspace{0.5cm}
+	Chaque personne voulant participer et contribuer à l’association peut être admis comme membre de l’association, pour autant que le ratio 50\% d'étudiants soit respecté.
 
-\english
-	\subsubsection{Membership Duration}\stepcounter{art}
-	Memberships are automatically renewed every half year.
+
+\french
+	\subsubsection{}\stepcounter{art}
+	$^1$ L’admission d’un nouveau membre est de la compétence du comité, avec possibilité de recours à l’assemblée générale en cas de refus. \\
+	$^2$ La demande d’admission est présentée par écrit au comité. \\
+	$^2$ Par sa demande d’admission, le candidat adhère sans réserve aux statuts de l’association et s’engage à respecter les décisions de l’assemblée générale et du comité.
 
 \french
 	\subsubsection{Durée d’adhésion}\stepcounter{art}
 	Les adhésions sont automatiquement renouvelées bianuellement.
 
 
-
-\english
-	\subsubsection{Ceasing of Membership}\stepcounter{art}
-	A member can cancel his membership at any time by sending an email to the vice president. Exclusion of members can be decided by the Executive Committee in cases of violation of the Articles of Association and/or Code of Conduct and can be executed with immediate effect.
-
 \french
 	\subsubsection{Démissions, exclusions}\stepcounter{art}
-	Les membres peuvent annuler leur adhésion en envoyant un courriel au vice-président. 
-	L’exclusion d’un membre peut être décidée par le Comité de Direction en cas de violation des Statuts de l’Association et/ou du Code de Conduite avec effet immédiat.
+
+	$^1$ La qualité de membre se perd par la démission, l’exclusion ou lorsque les conditions d’admission ne sont plus remplies \\
+	$^2$ Le membre peut démissionner en tout temps de l’association. L’annonce de la démission est présentée par courriel au comité. \\
+	$^3$ Sur proposition du comité, l’assemblée générale peut exclure un membre qui contrevient gravement aux buts ou aux intérêts de l’association.
 
 
-
-\english
-	\subsubsection{Membership Types}\stepcounter{art}
-	The association makes a distinction between «Resident» and «Starter» members.
-	Junior members have access to the associations facilities but may not use any materials, goods or tools of the association. 
-
-	Full members have access to the full workshop of the association and are allowed to use 3D printing, manual/reflow soldering, parts, materials and various other tools to create their prototypes.
+\french 
+	\subsection{Ressources}
 
 
 \french
-	\subsubsection{Types de Membres}\stepcounter{art}
-	L’association différencie les membres «Resident» des membres «Starter». Ces derniers ont accès aux installations de l’association mais ne peuvent pas utiliser le matériel, les biens ou les outils de l’association. Les membres «Resident» ont accès aux ateliers de l’association, aux pièces, matériel, outils et ont la permission d’utiliser l’imprimante 3D, de souder manuellement ou par refusion pour créer leurs prototypes.
+	\subsubsection{}\stepcounter{art}
+	Les ressources de l’association sont constituées par les cotisations des membres, les recettes des manifestations organisées par l’association, par les subventions, les parrainages, les dons ou les legs, la vente de biens et services, ainsi que par toute autre recette.
 
-	\vspace{0.5cm}
-
-
-\english
-	\subsubsection{Membership Fees}\stepcounter{art}
-
-	\begin{enumerate}[(a)]
-	\item «Starter» Member: 7.- / half year 
-	\item «Resident» Member: 20.- / half year 
-	\item Executive Committee Member: \\ 100.- / half year 
-
-	\end{enumerate}
+\french
+	\subsubsection{}\stepcounter{art} 
+	Les membres ont accès aux ateliers de l’association, aux pièces, matériel, outils et ont la permission d’utiliser l’imprimante 3D, de souder manuellement ou par refusion pour créer leurs prototypes.
 
 
 \french
 	\subsubsection{Cotisation}\stepcounter{art}
 	\begin{enumerate}[(a)]
-	\item Membre «Starter»: 7.- bianuellement
-	\item Membre «Resident» : 20.- bianuellement
+	\item Membre hors comité: 29.- bianuellement
 	\item Membres du Comité: 100.- bianuellement
 	\end{enumerate}
 
 
-\english
-	\subsubsection{Voting Rights}\stepcounter{art}
-	 «Starter», «Resident» and Executive Committee members have equal voting rights. Passive members have no voting rights.
-	 	\vspace{0.5cm}
+\french 
+	\subsection{Comptabilité et bilan}
+	\subsubsection{}\stepcounter{art}
 
-\french
-	\subsubsection{Droit de vote}\stepcounter{art}
-	Les membres «Starter», «Resident» et les membres du Comité de Direction ont des droits de votes égaux. Les Membres Passifs n'ont pas de droit de vote.
+	$^1$ L’association tient une comptabilité et un bilan. \\
+	$^2$ Le trésorier présente à l’assemblée générale la comptabilité et le bilan annuel avec le rapport des vérificateurs aux comptes. 
 
-
-\english
-	\subsubsection{Honorary Membership}\stepcounter{art}
-	Members who have demonstrated outstanding and selfless committment to the cause of the association may be awarded an honorary membership by the General Assembly. The honorary membership does not offer additional voting rights.
-\french
-	\subsubsection{Membres d'honneur}\stepcounter{art}
-	Les membres qui ont démontré un engagement exceptionnel et altruiste envers l’association peuvent être récompensés par l’Assemblée Générale en gagnant le titre de Membre d’Honneur. Ils ne gagnent aucun droit de vote supplémentaire.
-
-
-
-\english
-	\subsubsection{Passive Membership}\stepcounter{art}
-	Members observing the associations activities without participating actively fall into the category of a Passive Member. Passive Members pay no membership fee but are also not permitted to access tools, materials or any of the other facilities the association provides. Passive members have no voting rights.
-	\vspace{0.6cm}
-
-\french
-	\subsubsection{Membres Passifs}\stepcounter{art}
-	Les membres observant les activités de l'association sans y participer activement sont dans la catégories des Membres Passifs. Les Membres Passifs ne payent pas de cotisation mais n'ont pas la permissions d'utiliser le matériel de l'association et n'ont accès à aucunes installations que l'association fournit. Les Membres Passifs n'ont pas de droit de vote.
-
-
-
-% =================================
-
-
-\english
-	\subsection{Organisation}
 
 \french
 	\subsection{Organisation}
 
-	\english
-	\subsubsection{Bodies}\stepcounter{art}
-
-	\begin{enumerate}[(a)]
-	\item General Assembly
-	\item Executive Committee
-	\end{enumerate}
+\french
+	\subsubsection{}\stepcounter{art}
+	Les organes de l’association sont l’assemblée générale (ci-après « AG »), le comité et les vérificateurs aux comptes.
 
 \french
-	\subsubsection{Corps}\stepcounter{art}
-
-	\begin{enumerate}[(a)]
-	\item Assemblée Générale
-	\item Comité de Direction
-	\end{enumerate}
-
-	\english
-	\subsubsection{General Assembly}\stepcounter{art}
-	The General Assembly is the associations supreme authority. It is composed of all the members and is held annually. An Extraordinary General Assembly which discusses a specific topic or issue can be called for at any time.
-
-	The Committee shall send notice to members at least a week in advance via email including the proposed agenda.
-
-	Proposals by members must be submitted to the president at least a week in advance.
-
-	The agenda of the annual General Assembly includes:
-	\begin{enumerate}[(a)]
-	\item Election of Committee members and auditors.
-	\item Approval and changes to the Articles of Association.
-	\item Approval of the reports and accounts, report of treasurer.
-	\item Approval of the budget.
-	\item Assessment of activities.
-	\item Proposals.
-	\item Appointment of honorary members.
-	\item All other business.
-	\end{enumerate}
-
-	The General Assembly shall be considered valid regardless of the number of members present.
-
-	Decisions of the General Assembly shall be taken by a majority vote of the members present. In the case of a deadlock, the President shall have the casting vote.
-
-	\french
-	\subsubsection{Assemblée Générale}\stepcounter{art}
-
-	L'Assemblée Générale est le pouvoir suprême de l'association. Elle est composée de tous les membres et est tenue annuellement. Une Assemblée Générale Extraordinaire peut être convoquée à tout moment pour discuter d'un sujet ou problème spécifique.
- 
-	Le Comité de Direction envoie une notification contenant l’ordre du jour par courriel aux membres de l’association au moins une semaine avant l’Assemblée Générale. Les suggestions des membres doivent être soumises au moins une semaine avant l’Assemblée. 
-
-	L’ordre du jour de l’Assemblée Générale inclut:
-	\begin{enumerate}[(a)]
-		\item L’élection des membres du Comité de Direction et de l’organe de contrôle des comptes.
-		\item Approbation et modifications des Statuts de l’Association.
-		\item Approbation des rapports et des comptes. Rapport du trésorier.
-		\item Approbation du budget.
-		\item Evaluation des activités.
-		\item Suggestions.
-		\item La nomination des membres d’honneur.
-		\item Toute autre affaire à régler.
-	\end{enumerate}
-
-	L’Assemblée Générale sera considérée valide indépendamment du nombre de membres présents. Les décisions de l’Assemblée Générale sont prises en se référant à la majorité des voies. En cas d’égalité, le Président a le vote décisif.
-	\vspace{1cm}
-
-
-	\english
-	\subsubsection{Excutive Committee}\stepcounter{art}
-
-	The Executive Committee is composed of at least 2 and at most 5 members. 
-	All members of the Executive Committee are elected annually by the General Assembly.
-
-	The Executive Committee is authorized to carry out all acts that further the purposes of the association. It represents the association, manages all issues and is responsible for all incomes and expenses and the financial status of the association. For special tasks, further persons may be involved by the Executive Committee. 
-
-	The Executive Committee holds a meeting at least once per month. 
-	Decisions of the Executive Committee are considered valid if the majority of the Executive Committee present vote in favor of the decision. Votes can only be cast if the president is present. The president has the casting vote.
-
-	New Executive Committee members will be selected by the Executive Committee and notified prior to the next General Assembly. Members can also recommend themselves to the Executive Committee. This must be communicated to the Vice President via email at least 3 months before the next General Assembly.
-
-	Members of the Executive Committee must invest at least two hours per week on operational and organisational duties (not related to any particular project).
-
-	The legally binding signature for the association is in hand of the president or vice president.
- 
-
-	\french
-	\subsubsection{Comité de Direction}\stepcounter{art}
-	Le Comité de Direction est composé d’au moins 2 et d’au plus 5 membres qui sont tous élus annuellement par l’Assemblée Générale. Le Comité de Direction est autorisé à accomplir toutes les actions qui contribuent aux buts de l’association.	Il représente l’association, règle les problèmes, et est responsable de toutes les dépenses et les revenus ainsi que du statut financier de l’association.
-	Le Comité de Direction se réunit au moins une fois par mois. Les décisions du Comité de Direction sont considérées comme valides si la majorité du Comité de Direction présent vote en faveur de ladite décision. Les décisions ne peuvent être soumises au vote uniquement si le Président est présent. Le Président a le vote décisif en cas de litige.
-	Les nouveaux membres du Comité de Direction sont sélectionnés par le Comité de Direction et avertis avant la prochaine Assemblée Générale. Toutefois, les membres peuvent se recommander eux-mêmes au Comité de Direction en avertissant le Vice-Président par courriel au moins 3 mois avant la prochaine Assemblée Générale.
-	Les membres du Comité de Direction doivent investir au moins deux heures de leur temps par semaine dans les tâches organisationnelles ou opérationnelles. La signature juridiquement valable pour l’association est celle du Président ou du Vice-Président.
-
-	\vspace{2cm}
-
-% =================================
-
-
-\english
-	\subsection{Finances}
-
-\french
-	\subsection{Finances}
-
-	\english
-	\subsubsection{Resources}\stepcounter{art}
-	The association funds its activities through 
-
-	\begin{enumerate}[(a)]
-	\item sponsors
-	\item membership fees
-	\item donations
-	\item events, workshops
-	\item sale of goods and services
-	\end{enumerate}
-	\vspace{0.27cm}
-
-
-	\french
-	\subsubsection{Ressources}\stepcounter{art}
-	L’association finance ses activités par :
-	\begin{enumerate}[(a)]
-	\item les sponsors
-	\item les cotisations des membres
-	\item les donations
-	\item les évènements, les workshops
-	\item la vente de biens et services
-	\end{enumerate}
-
-
-
-	\english
-	\subsubsection{Liabilities}\stepcounter{art}
-	Only the associations assets can be made liable for debts of the association. Personal liability of the Executive Committee or members is excluded.
-		\vspace{1.5cm}
-
-
-
-	\french
-	\subsubsection{Responsabilités}\stepcounter{art}
-	Seuls les biens de l’association peuvent être utilisés pour les dettes de l’association. La responsabilité personnelle du Comité de Direction et des membres est exclu.
-		\vspace{1.5cm}
-
-% =================================
-
-
-\english
-	\subsection{Relationships with Third Parties}
-
-	\subsubsection{EPFL}\stepcounter{art}
-	The association respects the various rules concerning associations at EPFL.
-
-	In particular, the association ensures that at least half of the Executive Committee is comprised of EPFL or UNIL members, the president being registered with EPFL or UNIL and that the associations activities target members of EPFL. 
-			\vspace{2.5cm}
-
-
-\french
-	\subsection{Relations avec les tiers}
-
-	\subsubsection{EPFL}\stepcounter{art}
-	L’association respecte les diverses règles concernant les associations de l’EPFL.
-
-	En particulier, l’association certifie qu’au moins la moitié du Comité de Direction est membre des campus de l’EPFL, que le Président est immatriculé à l’EPFL et que les activités de l’association ciblent les membres de l’EPFL.
-			\vspace{2.5cm}
-
-
-
-
-% =================================
-
-
-\english
-	\subsection{Various}
-
-\french
-	\subsection{Autres}
-
-	\english
-	\subsubsection{Revision of the Articles of \\ Association}\stepcounter{art}
-	The present Articles of Association may be altered by the General Assembly if more than half of the members present and liable to vote agree. 		
-	\vspace{0.5cm}
-
-
-	\french
-	\subsubsection{Révision des Statuts de l’Association}\stepcounter{art}
-	Les présents Statuts de l’Association peuvent être révisés par l’Assemblée Générale si plus de la moitié des membres présents et autorisés à voter acceptent.
-
-
-	\english
-	\subsubsection{Dissolving of the Association}\stepcounter{art}
-	The association can not be dissolved if at least three members of the Committee vote for its continuing.
-	All members must be notified by email in the case of the association being dissolved.
-	Remaining assets should be transfered to another association with comparable purpose.
-
-
-	\french
-	\subsubsection{Dissolution de l’Association}\stepcounter{art}
-	L’association ne peut pas être dissoute si au moins trois des membres du Comité de Direction sont contre. Tous les membres doivent être notifiés par courriel en cas de dissociation de l’association. Les biens restants doivent être transférés à une autre association ayant un objectif comparable.
-
-
-\english
-	\vspace{\fill}
+	\subsubsection{L’assemblée générale}\stepcounter{art}
+	$^1$ L’AG réunit les membres de l’association. \\
+	$^2$ L’AG est le pouvoir suprême de l’association. Elle a pour tâches et compétences, celles qui ne sont pas attribuées à un autre organe, soit notamment:
 	
+	\begin{enumerate}[-]
+	\item élire les membres du comité et les vérificateurs aux comptes;
+	\item se prononcer sur l’admission des nouveaux membres sur recours et sur l’exclusion des
+	membres; 
+	\item décider des activités de l’association en rapport avec ses buts;
+	\item fixer le montant de la cotisation;
+	\item approuver le budget, la comptabilité et le bilan annuel, ainsi que le rapport du comité
+	de direction;
+	\item déterminer le montant maximum à hauteur duquel le comité peut engager
+	l’association;
+	\item disposer des actifs sociaux;
+ 	\item modifier les statuts;
+ 	\item prononcer la dissolution de l’association;
+ 	\item toute autre affaire à régler.
+	\end{enumerate}
+
+\french
+	\subsubsection{}\stepcounter{art}
+
+	$^1$ L’AG se réunit en séance ordinaire au moins une fois par an, dans les trois mois qui suivent la clôture du dernier exercice comptable. Elle est convoquée par le comité, par avis donné trois semaines à l’avance. \\
+	$^2$ Une AG extraordinaire est convoquée à chaque fois que le comité l’estime opportun ou à la demande des vérificateurs aux comptes ou d’un cinquième des membres de l’association. \\
+	$^3$ La convocation à l’AG mentionne sa date, son lieu et son ordre du jour. \\
+	$^4$ Sauf disposition contraire des statuts, l’AG siège valablement quel que soit le nombre des membres présents. \\
+	$^5$ L’AG est présidée par le président de l’association ou, s’il y a lieu, par le vice-président ou un autre membre du comité. \\
+	$^6$ Les décisions de l’AG sont consignées dans son procès-verbal. \\
+	$^7$ L’AG peut prendre des décisions par voie de circulation, notamment au moyen d’une plateforme informatique de vote en ligne.
+
+\french
+	\subsubsection{}\stepcounter{art}
+	$^1$ Chaque membre dispose d’une voix à l’AG. \\
+ 	$^2$ L’AG décide à la majorité simple des voix exprimées. En cas d’égalité des voix, la voix du président est prépondérante. \\
+	$^3$ L’AG élit les membres du comité à la majorité absolue des voix exprimées au premier tour et à la majorité relative au second tour. \\
+	$^4$ L’AG décide de l’admission sur recours et de l’exclusion de membres à la majorité absolue des voix exprimées. \\
+	$^5$ L’AG modifie les statuts à la majorité des deux tiers des voix exprimées. \\
+	$^6$ L’AG prononce la dissolution de l’association à la majorité des deux tiers des voix exprimées lors d’une AG extraordinaire convoquée spécialement à cet effet et réunissant au moins la moitié des membres. Si ce quorum n’est pas atteint, une AG extraordinaire est convoquée à nouveau dans un délai de vingt jours. Elle siège alors quel que soit le nombre des membres présents.
+
+
+\french
+	\subsubsection{Le comité}\stepcounter{art}
+	$^1$ Le comité est l’organe exécutif de l’association. Il se compose de trois à sept membres, dont le président, le vice-président et le trésorier. \\
+	$^2$ Les membres du comité sont élus par l’AG parmi les membres de l’association, pour une durée d’un an renouvelable. Au moins l’un d’entre eux doit, si possible, avoir été membre du comité lors du dernier mandat.
+ 
+
+\french
+	\subsubsection{}\stepcounter{art}
+	Le comité a les tâches suivantes:
+	\begin{enumerate}[-]
+		\item administrer l’association;
+		\item exécuter les décisions de l’AG;
+		\item diriger, coordonner et représenter l’association;
+		\item gérer les ressources et le budget;
+		\item tenir la caisse;
+		\item tenir la comptabilité et le bilan;
+		\item veiller au bon fonctionnement de l’association;
+		\item sauvegarder les intérêts de l’association;
+		\item rapporter son activité à l’assemblée générale.
+	\end{enumerate}
+
+\french
+	\subsubsection{}\stepcounter{art}
+	Pour le bon fonctionnement et le progrès continu de l'association, les membres du Comité de Direction sont tenus à investir au moins deux heures de leur temps par semaine dans les tâches organisationnelles ou opérationnelles. 
+
+
+\french
+	\subsubsection{}\stepcounter{art}
+	Le comité engage l’association par la signature collective à deux du président ou du vice-président et d’un second membre du comité. 
+
+\french
+	\subsubsection{}\stepcounter{art}
+	$^1$ Le comité se réunit sur convocation du président aussi souvent que la conduite des affaires l’exige, mais au moins une fois par mois. Il doit être convoqué si deux membres du comité au moins le demandent. \\
+	$^2$ Le comité ne peut délibérer qu’à la condition que le président ou le vice-président soit présent.\\
+	$^3$ Les décisions du comité sont consignées dans son procès-verbal.\\
+	$^4$ Le comité prend ses décisions à la majorité absolue des membres présents. En cas d’égalité des voix, la voix du président est prépondérante.\\
+	$^5$ En cas d’urgence, le comité peut prendre des décisions par voie de circulation, pour autant qu’aucun de ses membres ne s’y oppose.
+
+
+\french
+	\subsubsection{Les vérificateurs aux comptes}\stepcounter{art}
+	$^1$ Deux vérificateurs aux comptes sont élus par l’AG parmi les membres de l’association, pour une durée d’un an renouvelable.\\
+	$^2$ Les vérificateurs sont chargés de soumettre à l’AG un rapport sur les comptes qui lui sont présentés. Ils peuvent en tout temps vérifier l’état de la caisse, obtenir la production des livres et pièces comptables, ainsi que convoquer une AG extraordinaire
+
+
+\french
+	\subsection{Dissolution}
+
+	\subsubsection{}\stepcounter{art}
+	$^1$ En cas de dissolution de l’association, le mandat de liquidation revient au comité en fonction. \\
+	$^2$ L'actif net disponible est entièrement versé à une association d’étudiants ayant des buts similaire à ceux de l’association, choisie en accord avec l’EPFL.
+
+
+\french
+	\subsection{Dispositions finales}
+
+	\subsubsection{}\stepcounter{art}
+	Les présents statuts sont édictés en français et publiés sur le site internet de l’association. Les présents statuts ont été adoptés par l’assemblée générale du 24 Septembre 2016.
+
+
+ 	\vspace{\fill}
+
 	\noindent
-	Lausanne, 09.09.2015
+	Lausanne, le 24 Septembre 2016.
 	\vspace {1.5cm}
 
 	\noindent
 	\hrulefill \\
- 
+ 	Le président \\
+
 	\vspace {1.0cm}
  	\noindent 
  	\hrulefill \\
- 	
+ 	Le vice-président\\
 
- 	
-
-	
-	
 
 \clearpage
 % ================================
